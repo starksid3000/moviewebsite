@@ -1,10 +1,13 @@
-LANGUAGES
-Front-End HTML
-          CSS
-          JavaScript
-Backend Expressjs
-Database MongoDB
-API Themoviedb.org
+LANGUAGES <br>
+<strong>Front-End</strong> 
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<strong>Backend</strong> <ul><li>Expressjs</li> </ul>
+<strong>Dtabase</strong> <ul><li>MongoDB</li></ul>
+<strong>API</strong><ul><li>Themoviedb.org</li></ul>
 
 
 MOVIE WEBSITE
