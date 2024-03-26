@@ -1,3 +1,12 @@
+LANGUAGES
+Front-End HTML
+          CSS
+          JavaScript
+Backend Expressjs
+Database MongoDB
+API Themoviedb.org
+
+
 MOVIE WEBSITE
 <img width="1440" alt="Screenshot 2024-03-26 at 10 14 05" src="https://github.com/starksid3000/moviewebsite/assets/55691960/2aee5ed2-43b2-4b97-9bdc-91e41753ef3a">
 GO TO REVIEW
