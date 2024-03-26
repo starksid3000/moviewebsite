@@ -6,7 +6,7 @@ import ReviewsDAO from "./dao/reviewsDAO.js";
 
 const MongoClient = mongodb.MongoClient;
 const mongo_username = "hubstyle06"; // Wrap username in quotes
-const mongo_password = "Stark$idd3000"; // Wrap password in quotes
+const mongo_password = "######"; // Wrap password in quotes
 const uri = `mongodb+srv://hubstyle06:${mongo_password}@cluster0.a97bbig.mongodb.net/`;
 // const uri = `mongodb+srv://hubstyle06:${mongo_password}@cluster0.a97bbig.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 const port = 1000;
