@@ -5,6 +5,7 @@
 body{
     background-color: #131720;
     font-family: sans-serif;
+    color: white;
 }
 h3{
     color: white;
@@ -38,11 +39,11 @@ form{
     align-items: center;
 }
 input{
-    all: unset;
+
     font: 15px system-ui;
-    color: #fff;
+    color: #000000;
     height: 100%;
-    width: 100%;
+    width : 100%;
     padding: 6px 9px;
 }
 .thumbnail{
