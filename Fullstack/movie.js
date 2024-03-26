@@ -5,7 +5,7 @@ console.log(movieID);
 const movieTitle = url.searchParams.get("title");
 console.log(movieTitle);
 
-const APILINK = "http://localhost:1000/reviews/";
+const APILINK = "http://localhost:2000/reviews/";
 
 const main = document.getElementById("section");
 const title = document.getElementById("title");
@@ -75,6 +75,19 @@ function editReview(id, review, user) {
   <p><a href="#" onclick="saveReview('${reviewInputId}','${userInputId}','${id}')">💾</a>
   </p>
 `;
+}
+
+function deleteReview(id) {
+  if (id) {
+    fetch(APILINK + id, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        console.reload();
+      });
+  }
 }
 function saveReview(reviewInputId, userInputId, id = "") {
   const review = document.getElementById(reviewInputId).value;
